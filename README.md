@@ -1,5 +1,6 @@
-![image](https://github.com/user-attachments/assets/47e95399-808e-420f-8751-bfa7bc127039)
-![image](https://github.com/user-attachments/assets/752cf2bc-b13c-4abc-911f-7b1074853bd6)
+![image](https://github.com/user-attachments/assets/905b3189-ad40-4cd9-8b02-e7741510fccc)
+![image](https://github.com/user-attachments/assets/255d113b-fefd-4364-bdb2-51f80dec5e9d)
+
 
 Fake news is a news designed to deliberately spread hoaxes, propaganda and misinformation. 
 In today's digital landscape, misinformation poses a significant challenge to news platforms, undermining trust and credibility.
