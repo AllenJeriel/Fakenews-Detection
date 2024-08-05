@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detection - Result</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9b2f6a;
+        }
+        header {
+            background-color: #9b2f6a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            max-width: 150px;
+            margin-left: 20px;
+        }
+        nav {
+            margin-right: 20px;
+            
+        }
+        nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; /* optional: transforms text to uppercase */
+    letter-spacing: 1px; /* optional: adds letter spacing */
+}
+
+nav a:hover {
+    background-color: #9b2f6a;
+}
+        .heading {
+            margin-top: 20px;
+            color: #333;
+        }
+        .para {
+            margin-top: 20px;
+            background-color: #35e21f;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px 20px;
+            background-color: #9b2f6a;
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <img src="static/logo.jpg" alt="College Logo" class="logo">
+    <h1>Fake News Detection-Result</h1>
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+</header>
+    <div class="para">
+        <p>Result: {{ result }}</p>
+        {% if result == "This is Real News" %}
+            <img src="{{ url_for('static', filename='success.gif') }}" alt="Correct" width="200px">
+        {% elif result == "This is Fake News" %}
+            <img src="{{ url_for('static', filename='fail.gif') }}" alt="Fail" width="200px">
+        {% endif %}
+    </div>
+    <footer style="text-align: center; background-color: #882d71; color: white; padding: 10px; position: fixed; left: 0; bottom: 0; width: 100%;">
+        <p>Developed By: Allen Jeriel K, Anish RNS, Gnana Ajay A,Alan Giftson J, Easwari Engineering College, Computer Science and Engineering</p>
+        <p>Guided By: Dr. G Vishnupriya, Computer Science and Engineering, Easwari Engineering College</p>
+    </footer>
+    
+</body>
+</html>

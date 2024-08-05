@@ -1,0 +1,76 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #c5e60d;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    color: #c5e60d;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #c5e60d;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; /* optional: transforms text to uppercase */
+    letter-spacing: 1px; /* optional: adds letter spacing */
+}
+
+
+
+section.description {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section.description p {
+    font-family: "Arial Black", Arial, sans-serif;
+    color: #000; /* pure black */
+}
+section.description h2 {
+    font-family: "Arial Black", Arial, sans-serif;
+    color: #120227; /* pure black */
+}
+
+footer {
+    background-color: #9b2f6a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
